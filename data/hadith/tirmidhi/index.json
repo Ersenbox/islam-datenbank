@@ -1,0 +1,352 @@
+{
+ "id": "tirmidhi",
+ "name": "Jami at-Tirmidhi",
+ "language": "en",
+ "total": 3926,
+ "skipped_empty": 72,
+ "books": [
+  {
+   "id": 1,
+   "name": "The Book on Purification",
+   "count": 148,
+   "file": "books/1.json",
+   "bytes": 67508
+  },
+  {
+   "id": 2,
+   "name": "The Book on Salat (Prayer)",
+   "count": 302,
+   "file": "books/2.json",
+   "bytes": 143740
+  },
+  {
+   "id": 3,
+   "name": "The Book on Al-Witr",
+   "count": 33,
+   "file": "books/3.json",
+   "bytes": 17817
+  },
+  {
+   "id": 4,
+   "name": "The Book on the Day of Friday",
+   "count": 42,
+   "file": "books/4.json",
+   "bytes": 20136
+  },
+  {
+   "id": 5,
+   "name": "The Book on the Two Eids",
+   "count": 14,
+   "file": "books/5.json",
+   "bytes": 5471
+  },
+  {
+   "id": 6,
+   "name": "The Book on Traveling",
+   "count": 73,
+   "file": "books/6.json",
+   "bytes": 33226
+  },
+  {
+   "id": 7,
+   "name": "The Book on Zakat",
+   "count": 65,
+   "file": "books/7.json",
+   "bytes": 33450
+  },
+  {
+   "id": 8,
+   "name": "The Book on Fasting",
+   "count": 127,
+   "file": "books/8.json",
+   "bytes": 57988
+  },
+  {
+   "id": 9,
+   "name": "The Book on Hajj",
+   "count": 156,
+   "file": "books/9.json",
+   "bytes": 71820
+  },
+  {
+   "id": 10,
+   "name": "The Book on Jana''iz (Funerals)",
+   "count": 115,
+   "file": "books/10.json",
+   "bytes": 56673
+  },
+  {
+   "id": 11,
+   "name": "The Book on Marriage",
+   "count": 67,
+   "file": "books/11.json",
+   "bytes": 33037
+  },
+  {
+   "id": 12,
+   "name": "The Book on Suckling",
+   "count": 29,
+   "file": "books/12.json",
+   "bytes": 14087
+  },
+  {
+   "id": 13,
+   "name": "The Book on Divorce and Li'an",
+   "count": 31,
+   "file": "books/13.json",
+   "bytes": 19468
+  },
+  {
+   "id": 14,
+   "name": "The Book on Business",
+   "count": 109,
+   "file": "books/14.json",
+   "bytes": 93904
+  },
+  {
+   "id": 15,
+   "name": "The Chapters On Judgements From The Messenger of Allah",
+   "count": 62,
+   "file": "books/15.json",
+   "bytes": 31487
+  },
+  {
+   "id": 16,
+   "name": "The Book on Blood Money",
+   "count": 35,
+   "file": "books/16.json",
+   "bytes": 19563
+  },
+  {
+   "id": 17,
+   "name": "The Book on Legal Punishments (Al-Hudud)",
+   "count": 44,
+   "file": "books/17.json",
+   "bytes": 23248
+  },
+  {
+   "id": 18,
+   "name": "The Book on Hunting",
+   "count": 22,
+   "file": "books/18.json",
+   "bytes": 10584
+  },
+  {
+   "id": 19,
+   "name": "The Book on Sacrifices",
+   "count": 26,
+   "file": "books/19.json",
+   "bytes": 12868
+  },
+  {
+   "id": 20,
+   "name": "The Book on Vows and Oaths",
+   "count": 22,
+   "file": "books/20.json",
+   "bytes": 9930
+  },
+  {
+   "id": 21,
+   "name": "The Book on Military Expeditions",
+   "count": 60,
+   "file": "books/21.json",
+   "bytes": 46886
+  },
+  {
+   "id": 22,
+   "name": "The Book on Virtues of Jihad",
+   "count": 50,
+   "file": "books/22.json",
+   "bytes": 36811
+  },
+  {
+   "id": 23,
+   "name": "The Book on Jihad",
+   "count": 47,
+   "file": "books/23.json",
+   "bytes": 32252
+  },
+  {
+   "id": 24,
+   "name": "The Book on Clothing",
+   "count": 63,
+   "file": "books/24.json",
+   "bytes": 38898
+  },
+  {
+   "id": 25,
+   "name": "The Book on Food",
+   "count": 68,
+   "file": "books/25.json",
+   "bytes": 46339
+  },
+  {
+   "id": 26,
+   "name": "The Book on Drinks",
+   "count": 35,
+   "file": "books/26.json",
+   "bytes": 21470
+  },
+  {
+   "id": 27,
+   "name": "Chapters on Righteousness And Maintaining Good Relations With Relatives",
+   "count": 141,
+   "file": "books/27.json",
+   "bytes": 67123
+  },
+  {
+   "id": 28,
+   "name": "Chapters on Medicine",
+   "count": 53,
+   "file": "books/28.json",
+   "bytes": 28084
+  },
+  {
+   "id": 29,
+   "name": "Chapters On Inheritance",
+   "count": 26,
+   "file": "books/29.json",
+   "bytes": 14427
+  },
+  {
+   "id": 30,
+   "name": "Chapters On Wasaya (Wills and Testament)",
+   "count": 9,
+   "file": "books/30.json",
+   "bytes": 7250
+  },
+  {
+   "id": 31,
+   "name": "Chapters On Wala' And Gifts",
+   "count": 7,
+   "file": "books/31.json",
+   "bytes": 6009
+  },
+  {
+   "id": 32,
+   "name": "Chapters On Al-Qadar",
+   "count": 26,
+   "file": "books/32.json",
+   "bytes": 17213
+  },
+  {
+   "id": 33,
+   "name": "Chapters On Al-Fitan",
+   "count": 112,
+   "file": "books/33.json",
+   "bytes": 77696
+  },
+  {
+   "id": 34,
+   "name": "Chapters On Dreams",
+   "count": 25,
+   "file": "books/34.json",
+   "bytes": 15470
+  },
+  {
+   "id": 35,
+   "name": "Chapters On Witnesses",
+   "count": 9,
+   "file": "books/35.json",
+   "bytes": 3481
+  },
+  {
+   "id": 36,
+   "name": "Chapters On Zuhd",
+   "count": 110,
+   "file": "books/36.json",
+   "bytes": 65926
+  },
+  {
+   "id": 37,
+   "name": "Chapters on the description of the Day of Judgement, Ar-Riqaq, and Al-Wara'",
+   "count": 108,
+   "file": "books/37.json",
+   "bytes": 81657
+  },
+  {
+   "id": 38,
+   "name": "Chapters on the description of Paradise",
+   "count": 51,
+   "file": "books/38.json",
+   "bytes": 38409
+  },
+  {
+   "id": 39,
+   "name": "The Book on the Description of Hellfire",
+   "count": 34,
+   "file": "books/39.json",
+   "bytes": 21108
+  },
+  {
+   "id": 40,
+   "name": "The Book on Faith",
+   "count": 39,
+   "file": "books/40.json",
+   "bytes": 25330
+  },
+  {
+   "id": 41,
+   "name": "Chapters on Knowledge",
+   "count": 43,
+   "file": "books/41.json",
+   "bytes": 23541
+  },
+  {
+   "id": 42,
+   "name": "Chapters on Seeking Permission",
+   "count": 47,
+   "file": "books/42.json",
+   "bytes": 26901
+  },
+  {
+   "id": 43,
+   "name": "Chapters on Manners",
+   "count": 138,
+   "file": "books/43.json",
+   "bytes": 59035
+  },
+  {
+   "id": 44,
+   "name": "Chapters on Parables",
+   "count": 17,
+   "file": "books/44.json",
+   "bytes": 14771
+  },
+  {
+   "id": 45,
+   "name": "Chapters on The Virtues of the Qur'an",
+   "count": 52,
+   "file": "books/45.json",
+   "bytes": 32126
+  },
+  {
+   "id": 46,
+   "name": "Chapters on Recitation",
+   "count": 23,
+   "file": "books/46.json",
+   "bytes": 11372
+  },
+  {
+   "id": 47,
+   "name": "Chapters on Tafsir",
+   "count": 420,
+   "file": "books/47.json",
+   "bytes": 374255
+  },
+  {
+   "id": 48,
+   "name": "Chapters on Supplication",
+   "count": 244,
+   "file": "books/48.json",
+   "bytes": 198057
+  },
+  {
+   "id": 49,
+   "name": "Chapters on Virtues",
+   "count": 347,
+   "file": "books/49.json",
+   "bytes": 200583
+  }
+ ]
+}
