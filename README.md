@@ -68,3 +68,7 @@ ayet   = ayetler[(dayOfYear-1) % 365]
 - Neu bauen: `tools/build_v4_ayetler.py`, `tools/build_v4_sunnetler.py` (+ `tools/sunnet_konular.py`), `tools/build_v4_dualar.py`, `tools/build_v4_hadis_dil.py`, `tools/build_v4_manifest.py`.
 
 Tageslogik (v4): `ayet = ayetler[(dayOfYear-1) % 365]`, `sunnet = sunnetler[(dayOfYear-1) % 365]`, `dua = dualar_v2.dualar[(dayOfYear-1) % 365]` (Tag 366 → wieder Tag 1).
+
+### v4.1 (Manifest-Version 5, 2026-11-03)
+
+- `sunnetler.json` Tag 1–180: neue Felder `hadis_metni_en`, `hadis_metni_fr`, `hadis_metni_de_not`, `kaynak_url` (per Quelle + Nummer aus fawazahmed0/hadith-api, Stichproben geprüft). Bestehende Felder unverändert. Tag 123 (Koranvers) hat keine Übersetzung.

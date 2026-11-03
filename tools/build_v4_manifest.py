@@ -4,7 +4,7 @@ yeni dosyalar eklenir."""
 import json, hashlib, os, sys
 sys.stdout.reconfigure(encoding='utf-8')
 m = json.load(open('manifest.json', encoding='utf-8'))
-m['version'] = 4
+m['version'] = int(sys.argv[1]) if len(sys.argv) > 1 else 4
 m['updated'] = '2026-11-03'
 
 

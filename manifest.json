@@ -1,6 +1,6 @@
 {
  "name": "islam-datenbank",
- "version": 4,
+ "version": 5,
  "updated": "2026-11-03",
  "files": [
   {
@@ -18,8 +18,8 @@
   {
    "path": "data/daily/sunnetler.json",
    "count": 365,
-   "bytes": 432451,
-   "sha256": "1dd0613b363a1400a874dd6684f1bf166067e488b0769cb14e17a3cb9fc1b122",
+   "bytes": 624325,
+   "sha256": "50f0cb5115c314d6de679df974ce19d0c9fe0184eeb631857dc9b835efea39bf",
    "expected": 365,
    "complete": true
   },
