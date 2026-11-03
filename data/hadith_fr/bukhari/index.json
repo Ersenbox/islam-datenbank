@@ -1,0 +1,696 @@
+{
+ "id": "bukhari",
+ "name": "Sahih al-Bukhari",
+ "language": "fr",
+ "total": 7580,
+ "skipped_empty": 9,
+ "source": "fawazahmed0/hadith-api fra-bukhari",
+ "books": [
+  {
+   "id": 0,
+   "name": "Book 0",
+   "count": 306,
+   "file": "books/0.json",
+   "bytes": 301855
+  },
+  {
+   "id": 1,
+   "name": "Revelation",
+   "count": 7,
+   "file": "books/1.json",
+   "bytes": 16038
+  },
+  {
+   "id": 2,
+   "name": "Belief",
+   "count": 51,
+   "file": "books/2.json",
+   "bytes": 28698
+  },
+  {
+   "id": 3,
+   "name": "Knowledge",
+   "count": 76,
+   "file": "books/3.json",
+   "bytes": 52794
+  },
+  {
+   "id": 4,
+   "name": "Ablutions (Wudu')",
+   "count": 113,
+   "file": "books/4.json",
+   "bytes": 50790
+  },
+  {
+   "id": 5,
+   "name": "Bathing (Ghusl)",
+   "count": 46,
+   "file": "books/5.json",
+   "bytes": 19238
+  },
+  {
+   "id": 6,
+   "name": "Menstrual Periods",
+   "count": 37,
+   "file": "books/6.json",
+   "bytes": 18199
+  },
+  {
+   "id": 7,
+   "name": "Rubbing hands and feet with dust (Tayammum)",
+   "count": 15,
+   "file": "books/7.json",
+   "bytes": 13908
+  },
+  {
+   "id": 8,
+   "name": "Prayers (Salat)",
+   "count": 167,
+   "file": "books/8.json",
+   "bytes": 85133
+  },
+  {
+   "id": 9,
+   "name": "Times of the Prayers",
+   "count": 77,
+   "file": "books/9.json",
+   "bytes": 39525
+  },
+  {
+   "id": 10,
+   "name": "Call to Prayers (Adhaan)",
+   "count": 266,
+   "file": "books/10.json",
+   "bytes": 134440
+  },
+  {
+   "id": 11,
+   "name": "Friday Prayer",
+   "count": 65,
+   "file": "books/11.json",
+   "bytes": 30809
+  },
+  {
+   "id": 12,
+   "name": "Fear Prayer",
+   "count": 6,
+   "file": "books/12.json",
+   "bytes": 3932
+  },
+  {
+   "id": 13,
+   "name": "The Two Festivals (Eids)",
+   "count": 37,
+   "file": "books/13.json",
+   "bytes": 23637
+  },
+  {
+   "id": 14,
+   "name": "Witr Prayer",
+   "count": 15,
+   "file": "books/14.json",
+   "bytes": 6535
+  },
+  {
+   "id": 15,
+   "name": "Invoking Allah for Rain (Istisqaa)",
+   "count": 34,
+   "file": "books/15.json",
+   "bytes": 21903
+  },
+  {
+   "id": 16,
+   "name": "Eclipses",
+   "count": 24,
+   "file": "books/16.json",
+   "bytes": 18752
+  },
+  {
+   "id": 17,
+   "name": "Prostration During Recital of Qur'an",
+   "count": 13,
+   "file": "books/17.json",
+   "bytes": 4416
+  },
+  {
+   "id": 18,
+   "name": "Shortening the Prayers (At-Taqseer)",
+   "count": 39,
+   "file": "books/18.json",
+   "bytes": 14768
+  },
+  {
+   "id": 19,
+   "name": "Prayer at Night (Tahajjud)",
+   "count": 63,
+   "file": "books/19.json",
+   "bytes": 31838
+  },
+  {
+   "id": 20,
+   "name": "Virtues of Prayer at Masjid Makkah and Madinah",
+   "count": 9,
+   "file": "books/20.json",
+   "bytes": 3340
+  },
+  {
+   "id": 21,
+   "name": "Actions while Praying",
+   "count": 27,
+   "file": "books/21.json",
+   "bytes": 15971
+  },
+  {
+   "id": 22,
+   "name": "Forgetfulness in Prayer",
+   "count": 14,
+   "file": "books/22.json",
+   "bytes": 10144
+  },
+  {
+   "id": 23,
+   "name": "Funerals (Al-Janaa'iz)",
+   "count": 148,
+   "file": "books/23.json",
+   "bytes": 85371
+  },
+  {
+   "id": 24,
+   "name": "Obligatory Charity Tax (Zakat)",
+   "count": 112,
+   "file": "books/24.json",
+   "bytes": 66258
+  },
+  {
+   "id": 25,
+   "name": "Hajj (Pilgrimage)",
+   "count": 247,
+   "file": "books/25.json",
+   "bytes": 136235
+  },
+  {
+   "id": 26,
+   "name": "`Umrah (Minor pilgrimage)",
+   "count": 30,
+   "file": "books/26.json",
+   "bytes": 20937
+  },
+  {
+   "id": 27,
+   "name": "Pilgrims Prevented from Completing the Pilgrimage",
+   "count": 15,
+   "file": "books/27.json",
+   "bytes": 7808
+  },
+  {
+   "id": 28,
+   "name": "Penalty of Hunting while on Pilgrimage",
+   "count": 46,
+   "file": "books/28.json",
+   "bytes": 25381
+  },
+  {
+   "id": 29,
+   "name": "Virtues of Madinah",
+   "count": 24,
+   "file": "books/29.json",
+   "bytes": 10817
+  },
+  {
+   "id": 30,
+   "name": "Fasting",
+   "count": 112,
+   "file": "books/30.json",
+   "bytes": 53934
+  },
+  {
+   "id": 31,
+   "name": "Praying at Night in Ramadaan (Taraweeh)",
+   "count": 6,
+   "file": "books/31.json",
+   "bytes": 3846
+  },
+  {
+   "id": 32,
+   "name": "Virtues of the Night of Qadr",
+   "count": 11,
+   "file": "books/32.json",
+   "bytes": 5438
+  },
+  {
+   "id": 33,
+   "name": "Retiring to a Mosque for Remembrance of Allah (I'tikaf)",
+   "count": 21,
+   "file": "books/33.json",
+   "bytes": 11928
+  },
+  {
+   "id": 34,
+   "name": "Sales and Trade",
+   "count": 184,
+   "file": "books/34.json",
+   "bytes": 90872
+  },
+  {
+   "id": 35,
+   "name": "Sales in which a Price is paid for Goods to be Delivered Later (As-Salam)",
+   "count": 16,
+   "file": "books/35.json",
+   "bytes": 7341
+  },
+  {
+   "id": 36,
+   "name": "Shuf'a",
+   "count": 3,
+   "file": "books/36.json",
+   "bytes": 1587
+  },
+  {
+   "id": 37,
+   "name": "Hiring",
+   "count": 25,
+   "file": "books/37.json",
+   "bytes": 15416
+  },
+  {
+   "id": 38,
+   "name": "Transferance of a Debt from One Person to Another (Al-Hawaala)",
+   "count": 3,
+   "file": "books/38.json",
+   "bytes": 1765
+  },
+  {
+   "id": 39,
+   "name": "Kafalah",
+   "count": 9,
+   "file": "books/39.json",
+   "bytes": 11461
+  },
+  {
+   "id": 40,
+   "name": "Representation, Authorization, Business by Proxy",
+   "count": 18,
+   "file": "books/40.json",
+   "bytes": 15930
+  },
+  {
+   "id": 41,
+   "name": "Agriculture",
+   "count": 28,
+   "file": "books/41.json",
+   "bytes": 17146
+  },
+  {
+   "id": 42,
+   "name": "Distribution of Water",
+   "count": 31,
+   "file": "books/42.json",
+   "bytes": 18900
+  },
+  {
+   "id": 43,
+   "name": "Loans, Payment of Loans, Freezing of Property, Bankruptcy",
+   "count": 24,
+   "file": "books/43.json",
+   "bytes": 13776
+  },
+  {
+   "id": 44,
+   "name": "Khusoomaat",
+   "count": 15,
+   "file": "books/44.json",
+   "bytes": 9312
+  },
+  {
+   "id": 45,
+   "name": "Lost Things Picked up by Someone (Luqatah)",
+   "count": 15,
+   "file": "books/45.json",
+   "bytes": 11735
+  },
+  {
+   "id": 46,
+   "name": "Oppressions",
+   "count": 43,
+   "file": "books/46.json",
+   "bytes": 26186
+  },
+  {
+   "id": 47,
+   "name": "Partnership",
+   "count": 22,
+   "file": "books/47.json",
+   "bytes": 15183
+  },
+  {
+   "id": 48,
+   "name": "Mortgaging",
+   "count": 8,
+   "file": "books/48.json",
+   "bytes": 4241
+  },
+  {
+   "id": 49,
+   "name": "Manumission of Slaves",
+   "count": 41,
+   "file": "books/49.json",
+   "bytes": 19053
+  },
+  {
+   "id": 50,
+   "name": "Makaatib",
+   "count": 6,
+   "file": "books/50.json",
+   "bytes": 5632
+  },
+  {
+   "id": 51,
+   "name": "Gifts",
+   "count": 68,
+   "file": "books/51.json",
+   "bytes": 37985
+  },
+  {
+   "id": 52,
+   "name": "Witnesses",
+   "count": 50,
+   "file": "books/52.json",
+   "bytes": 37387
+  },
+  {
+   "id": 53,
+   "name": "Peacemaking",
+   "count": 20,
+   "file": "books/53.json",
+   "bytes": 17538
+  },
+  {
+   "id": 54,
+   "name": "Conditions",
+   "count": 24,
+   "file": "books/54.json",
+   "bytes": 25940
+  },
+  {
+   "id": 55,
+   "name": "Wills and Testaments (Wasaayaa)",
+   "count": 44,
+   "file": "books/55.json",
+   "bytes": 27548
+  },
+  {
+   "id": 56,
+   "name": "Fighting for the Cause of Allah (Jihaad)",
+   "count": 294,
+   "file": "books/56.json",
+   "bytes": 176594
+  },
+  {
+   "id": 57,
+   "name": "One-fifth of Booty to the Cause of Allah (Khumus)",
+   "count": 63,
+   "file": "books/57.json",
+   "bytes": 53206
+  },
+  {
+   "id": 58,
+   "name": "Jizyah and Mawaada'ah",
+   "count": 30,
+   "file": "books/58.json",
+   "bytes": 27618
+  },
+  {
+   "id": 59,
+   "name": "Beginning of Creation",
+   "count": 131,
+   "file": "books/59.json",
+   "bytes": 64920
+  },
+  {
+   "id": 60,
+   "name": "Prophets",
+   "count": 154,
+   "file": "books/60.json",
+   "bytes": 123866
+  },
+  {
+   "id": 61,
+   "name": "Virtues and Merits of the Prophet (pbuh) and his Companions",
+   "count": 151,
+   "file": "books/61.json",
+   "bytes": 92210
+  },
+  {
+   "id": 62,
+   "name": "Companions of the Prophet",
+   "count": 120,
+   "file": "books/62.json",
+   "bytes": 86160
+  },
+  {
+   "id": 63,
+   "name": "Merits of the Helpers in Madinah (Ansaar)",
+   "count": 172,
+   "file": "books/63.json",
+   "bytes": 129440
+  },
+  {
+   "id": 64,
+   "name": "Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)",
+   "count": 488,
+   "file": "books/64.json",
+   "bytes": 374865
+  },
+  {
+   "id": 65,
+   "name": "Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))",
+   "count": 499,
+   "file": "books/65.json",
+   "bytes": 373562
+  },
+  {
+   "id": 66,
+   "name": "Virtues of the Qur'an",
+   "count": 87,
+   "file": "books/66.json",
+   "bytes": 50120
+  },
+  {
+   "id": 67,
+   "name": "Wedlock, Marriage (Nikaah)",
+   "count": 183,
+   "file": "books/67.json",
+   "bytes": 116544
+  },
+  {
+   "id": 68,
+   "name": "Divorce",
+   "count": 95,
+   "file": "books/68.json",
+   "bytes": 58964
+  },
+  {
+   "id": 69,
+   "name": "Supporting the Family",
+   "count": 22,
+   "file": "books/69.json",
+   "bytes": 15293
+  },
+  {
+   "id": 70,
+   "name": "Food, Meals",
+   "count": 95,
+   "file": "books/70.json",
+   "bytes": 47542
+  },
+  {
+   "id": 71,
+   "name": "Sacrifice on Occasion of Birth (`Aqiqa)",
+   "count": 9,
+   "file": "books/71.json",
+   "bytes": 4211
+  },
+  {
+   "id": 72,
+   "name": "Hunting, Slaughtering",
+   "count": 69,
+   "file": "books/72.json",
+   "bytes": 34810
+  },
+  {
+   "id": 73,
+   "name": "Al-Adha Festival Sacrifice (Adaahi)",
+   "count": 30,
+   "file": "books/73.json",
+   "bytes": 15838
+  },
+  {
+   "id": 74,
+   "name": "Drinks",
+   "count": 65,
+   "file": "books/74.json",
+   "bytes": 26791
+  },
+  {
+   "id": 75,
+   "name": "Patients",
+   "count": 37,
+   "file": "books/75.json",
+   "bytes": 21775
+  },
+  {
+   "id": 76,
+   "name": "Medicine",
+   "count": 91,
+   "file": "books/76.json",
+   "bytes": 48912
+  },
+  {
+   "id": 77,
+   "name": "Dress",
+   "count": 185,
+   "file": "books/77.json",
+   "bytes": 82342
+  },
+  {
+   "id": 78,
+   "name": "Good Manners and Form (Al-Adab)",
+   "count": 248,
+   "file": "books/78.json",
+   "bytes": 135521
+  },
+  {
+   "id": 79,
+   "name": "Asking Permission",
+   "count": 75,
+   "file": "books/79.json",
+   "bytes": 44938
+  },
+  {
+   "id": 80,
+   "name": "Invocations",
+   "count": 106,
+   "file": "books/80.json",
+   "bytes": 59638
+  },
+  {
+   "id": 81,
+   "name": "To make the Heart Tender (Ar-Riqaq)",
+   "count": 181,
+   "file": "books/81.json",
+   "bytes": 99878
+  },
+  {
+   "id": 82,
+   "name": "Divine Will (Al-Qadar)",
+   "count": 26,
+   "file": "books/82.json",
+   "bytes": 15283
+  },
+  {
+   "id": 83,
+   "name": "Oaths and Vows",
+   "count": 84,
+   "file": "books/83.json",
+   "bytes": 46203
+  },
+  {
+   "id": 84,
+   "name": "Expiation for Unfulfilled Oaths",
+   "count": 15,
+   "file": "books/84.json",
+   "bytes": 11283
+  },
+  {
+   "id": 85,
+   "name": "Laws of Inheritance (Al-Faraa'id)",
+   "count": 47,
+   "file": "books/85.json",
+   "bytes": 25100
+  },
+  {
+   "id": 86,
+   "name": "Limits and Punishments set by Allah (Hudood)",
+   "count": 81,
+   "file": "books/86.json",
+   "bytes": 53838
+  },
+  {
+   "id": 87,
+   "name": "Blood Money (Ad-Diyat)",
+   "count": 55,
+   "file": "books/87.json",
+   "bytes": 35234
+  },
+  {
+   "id": 88,
+   "name": "Apostates",
+   "count": 21,
+   "file": "books/88.json",
+   "bytes": 17511
+  },
+  {
+   "id": 89,
+   "name": "(Statements made under) Coercion",
+   "count": 13,
+   "file": "books/89.json",
+   "bytes": 7051
+  },
+  {
+   "id": 90,
+   "name": "Tricks",
+   "count": 28,
+   "file": "books/90.json",
+   "bytes": 20030
+  },
+  {
+   "id": 91,
+   "name": "Interpretation of Dreams",
+   "count": 61,
+   "file": "books/91.json",
+   "bytes": 45017
+  },
+  {
+   "id": 92,
+   "name": "Afflictions and the End of the World",
+   "count": 83,
+   "file": "books/92.json",
+   "bytes": 44376
+  },
+  {
+   "id": 93,
+   "name": "Judgments (Ahkaam)",
+   "count": 84,
+   "file": "books/93.json",
+   "bytes": 54859
+  },
+  {
+   "id": 94,
+   "name": "Wishes",
+   "count": 20,
+   "file": "books/94.json",
+   "bytes": 10414
+  },
+  {
+   "id": 95,
+   "name": "Accepting Information Given by a Truthful Person",
+   "count": 21,
+   "file": "books/95.json",
+   "bytes": 12702
+  },
+  {
+   "id": 96,
+   "name": "Holding Fast to the Qur'an and Sunnah",
+   "count": 97,
+   "file": "books/96.json",
+   "bytes": 65165
+  },
+  {
+   "id": 97,
+   "name": "Oneness, Uniqueness of Allah (Tawheed)",
+   "count": 188,
+   "file": "books/97.json",
+   "bytes": 135376
+  }
+ ]
+}

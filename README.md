@@ -51,3 +51,20 @@ sunnet = sunnetler[(dayOfYear-1) % 180]      // beginnt alle 180 Tage von vorn
 dua    = dualar[(dayOfYear-1) % 360]
 ayet   = ayetler[(dayOfYear-1) % 365]
 ```
+
+## v4 (2026-11-03) – Neu / Yeni
+
+| Datei | Inhalt | Quelle |
+|---|---|---|
+| `data/daily/ayetler.json` | 365 Verse, **neue Felder** `ingilizce_meal`, `almanca_meal`, `fransizca_meal` (+ `*_kaynagi`) | alquran.cloud: `en.sahih`, `de.bubenheim`, `fr.hamidullah` |
+| `data/daily/sunnetler.json` | jetzt **365 Tage** (1–180 unverändert, 181–365 neu). Neue Einträge nur Buhârî/Müslim (Sahih), Text 1:1 aus türkischer Übersetzung, plus `hadis_metni_en`, `hadis_metni_fr`, `kaynak_url` | fawazahmed0/hadith-api (`tur-*`, `eng-*`, `fra-*`) |
+| `data/daily/dualar_v2.json` | **neu**, 365 Tage: 59 Koran-Duas + 306 Hadith-Duas, nur Sahih/Hasan (kein Daif), mit Arabisch, TR, EN, DE, FR, Quelle + Link | alquran.cloud, fawazahmed0/hadith-api |
+| `data/hadith_tr/<kitap>/` | türkische Hadith-Texte, gleiche Struktur wie `data/hadith/` | fawazahmed0/hadith-api `tur-*` (Nesâî nur 628 Hadithe) |
+| `data/hadith_fr/<kitap>/` | französische Hadith-Texte, gleiche Struktur | fawazahmed0/hadith-api `fra-*` (Tirmizî fehlt) |
+
+- `dualar.json` (alt) bleibt **unverändert**. Achtung: 62 Einträge nennen alle „İbn Mâce 925“, 20 Einträge verweisen auf schwache (daif) Hadithe, 100 Tage sind nur Esmâ-Namen, kein arabischer Text. Für Apps `dualar_v2.json` benutzen.
+- **Deutsch bei Hadithen:** Es gibt keine offene deutsche Hadith-Übersetzung. Apps zeigen den englischen Text + Hinweis (`almanca_not` / `hadis_metni_de_not`).
+- `dualar_v2.json`: Bei Hadith-Duas steht der **ganze Hadith** (inkl. Kontext), kein Lateinisch-Okunuş (Quelle hat keinen).
+- Neu bauen: `tools/build_v4_ayetler.py`, `tools/build_v4_sunnetler.py` (+ `tools/sunnet_konular.py`), `tools/build_v4_dualar.py`, `tools/build_v4_hadis_dil.py`, `tools/build_v4_manifest.py`.
+
+Tageslogik (v4): `ayet = ayetler[(dayOfYear-1) % 365]`, `sunnet = sunnetler[(dayOfYear-1) % 365]`, `dua = dualar_v2.dualar[(dayOfYear-1) % 365]` (Tag 366 → wieder Tag 1).

@@ -1,13 +1,13 @@
 {
  "name": "islam-datenbank",
- "version": 3,
- "updated": "2026-09-20",
+ "version": 4,
+ "updated": "2026-11-03",
  "files": [
   {
    "path": "data/daily/ayetler.json",
    "count": 365,
-   "bytes": 259950,
-   "sha256": "619f940d4f91fcf71796c231bb98d208468f49c322a71aa077ea9cdd0add9e59"
+   "bytes": 505579,
+   "sha256": "a46d0bddc7085f4aaef1b855ee86afc6d61dfa1de08738cae8ef95f101be9b1a"
   },
   {
    "path": "data/daily/dualar.json",
@@ -17,10 +17,10 @@
   },
   {
    "path": "data/daily/sunnetler.json",
-   "count": 180,
-   "bytes": 66679,
-   "sha256": "92157a8476d97c5cef60edf8d39f83e04f30b37c838fd0b28ee5529cc1a45235",
-   "expected": 180,
+   "count": 365,
+   "bytes": 432451,
+   "sha256": "1dd0613b363a1400a874dd6684f1bf166067e488b0769cb14e17a3cb9fc1b122",
+   "expected": 365,
    "complete": true
   },
   {
@@ -29,7 +29,8 @@
    "bytes": 12204,
    "sha256": "d1cf0283e7742fc167bab42dc57c10d16a7668650b37fb956d7a3658935e7a82",
    "books": 98,
-   "download_bytes": 4412497
+   "download_bytes": 4412497,
+   "language": "en"
   },
   {
    "path": "data/hadith/muslim/index.json",
@@ -37,7 +38,8 @@
    "bytes": 7540,
    "sha256": "a8e3dc2fcee78fbc5d92a226d9c04aaeaaf2c8b838a146edd7a7233978a882cb",
    "books": 57,
-   "download_bytes": 3534441
+   "download_bytes": 3534441,
+   "language": "en"
   },
   {
    "path": "data/hadith/abudawud/index.json",
@@ -45,7 +47,8 @@
    "bytes": 5978,
    "sha256": "7e64083c7d97e60033dfdb0827038b0b33dafaeae013028630c894aae23d3f85",
    "books": 43,
-   "download_bytes": 3370935
+   "download_bytes": 3370935,
+   "language": "en"
   },
   {
    "path": "data/hadith/tirmidhi/index.json",
@@ -53,7 +56,8 @@
    "bytes": 6251,
    "sha256": "75dc6424d19faee4da5cbc3c0c01bdfce50e920fd0f8bb27b7a202b43e5219d7",
    "books": 49,
-   "download_bytes": 2408485
+   "download_bytes": 2408485,
+   "language": "en"
   },
   {
    "path": "data/hadith/nasai/index.json",
@@ -61,7 +65,8 @@
    "bytes": 6746,
    "sha256": "5772758cbbdcaabefa222a014ac9eae56eccc762f0187cc9c1ca4d2001f1843a",
    "books": 51,
-   "download_bytes": 3078589
+   "download_bytes": 3078589,
+   "language": "en"
   },
   {
    "path": "data/hadith/ibnmajah/index.json",
@@ -69,7 +74,118 @@
    "bytes": 4822,
    "sha256": "e446701a259d8a68215ef670a54035b3faa24c9c787d3893c58713a0241b33e3",
    "books": 38,
-   "download_bytes": 2450115
+   "download_bytes": 2450115,
+   "language": "en"
+  },
+  {
+   "path": "data/daily/dualar_v2.json",
+   "count": 365,
+   "bytes": 1140413,
+   "sha256": "b2ae749d4e6a312633410489d0cd336b9c11274cbc76d9d0916b554dd4853f3c"
+  },
+  {
+   "path": "data/hadith_tr/bukhari/index.json",
+   "count": 7518,
+   "bytes": 12274,
+   "sha256": "3a20fca811cafe47ffc51789c8ad77bc99ea57130d4552c32097de79b97d4c3e",
+   "books": 98,
+   "download_bytes": 9752978,
+   "language": "tr"
+  },
+  {
+   "path": "data/hadith_fr/bukhari/index.json",
+   "count": 7580,
+   "bytes": 12255,
+   "sha256": "ee8e3ce1121714f1cf77403ee4c67cb3d640cce9382b1a50e1706a27b912ec38",
+   "books": 98,
+   "download_bytes": 4771550,
+   "language": "fr"
+  },
+  {
+   "path": "data/hadith_tr/muslim/index.json",
+   "count": 7273,
+   "bytes": 7602,
+   "sha256": "313c915e6470ee3485962c9b60e783dfb8e06e37820ccd3ce8520cd33ad2dd2d",
+   "books": 57,
+   "download_bytes": 6248038,
+   "language": "tr"
+  },
+  {
+   "path": "data/hadith_fr/muslim/index.json",
+   "count": 7214,
+   "bytes": 7585,
+   "sha256": "c3f4e192ce118fb89eb98e78bb2a89d078c4e447df4cecd3fa75973fac10afc2",
+   "books": 57,
+   "download_bytes": 3582190,
+   "language": "fr"
+  },
+  {
+   "path": "data/hadith_tr/abudawud/index.json",
+   "count": 5264,
+   "bytes": 6032,
+   "sha256": "de23db54744dc4a585cdb7c8529b3feb6340af198075b3dfbe962086bd685df7",
+   "books": 43,
+   "download_bytes": 4001755,
+   "language": "tr"
+  },
+  {
+   "path": "data/hadith_fr/abudawud/index.json",
+   "count": 5272,
+   "bytes": 6030,
+   "sha256": "1b2b034db179c19b5d815e4f26c6e16208ed4009421345203669a77b743a8564",
+   "books": 43,
+   "download_bytes": 3685059,
+   "language": "fr"
+  },
+  {
+   "path": "data/hadith_tr/tirmidhi/index.json",
+   "count": 3720,
+   "bytes": 6308,
+   "sha256": "b3e51b98923257d3179e1a28e0d502a10c4d38b7e8a71a44b299b4ba9ba3d89b",
+   "books": 49,
+   "download_bytes": 3341618,
+   "language": "tr"
+  },
+  {
+   "path": "data/hadith_tr/nasai/index.json",
+   "count": 628,
+   "bytes": 6560,
+   "sha256": "63f982a88057f3b70c9b4f552cd94fadae6232c1ef4a8151ffd2440dda315988",
+   "books": 51,
+   "download_bytes": 400173,
+   "language": "tr"
+  },
+  {
+   "path": "data/hadith_fr/nasai/index.json",
+   "count": 5679,
+   "bytes": 6794,
+   "sha256": "28f12f6b78edc707fdcfcf44eec145e98c294cd2631991026749b0a0109f58df",
+   "books": 51,
+   "download_bytes": 3213278,
+   "language": "fr"
+  },
+  {
+   "path": "data/hadith_tr/ibnmajah/index.json",
+   "count": 4317,
+   "bytes": 4879,
+   "sha256": "f7debb6659f1fc32a6ff2c2fe3490876d11e1f82c87b8bb749c22af49d2e462f",
+   "books": 38,
+   "download_bytes": 4367520,
+   "language": "tr"
+  },
+  {
+   "path": "data/hadith_fr/ibnmajah/index.json",
+   "count": 4340,
+   "bytes": 4872,
+   "sha256": "2c764c02f8e83458eec7882fef8af198fb4ef425bba2bf01751b48f153191ff3",
+   "books": 38,
+   "download_bytes": 2503608,
+   "language": "fr"
   }
- ]
+ ],
+ "notes": {
+  "dualar_v2": "365 gun, sadece Kur'an + Sahih/Hasan hadis, daif yok. Eski dualar.json degistirilmedi (360 gun, bazi kaynaklari hatali).",
+  "almanca": "Almanca hadis cevirisi yok: uygulama Ingilizce metin + not gosterir. Ayetlerde almanca_meal = de.bubenheim.",
+  "fransizca": "Tirmizi icin Fransizca ceviri yok: Ingilizce metin + not."
+ }
 }

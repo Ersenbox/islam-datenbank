@@ -1,0 +1,409 @@
+{
+ "id": "muslim",
+ "name": "Sahih Muslim",
+ "language": "tr",
+ "total": 7273,
+ "skipped_empty": 203,
+ "source": "fawazahmed0/hadith-api tur-muslim",
+ "books": [
+  {
+   "id": 0,
+   "name": "Introduction",
+   "count": 105,
+   "file": "books/0.json",
+   "bytes": 97160
+  },
+  {
+   "id": 1,
+   "name": "The Book of Faith",
+   "count": 430,
+   "file": "books/1.json",
+   "bytes": 963309
+  },
+  {
+   "id": 2,
+   "name": "The Book of Purification",
+   "count": 143,
+   "file": "books/2.json",
+   "bytes": 390106
+  },
+  {
+   "id": 3,
+   "name": "The Book of Menstruation",
+   "count": 157,
+   "file": "books/3.json",
+   "bytes": 271003
+  },
+  {
+   "id": 4,
+   "name": "The Book of Prayers",
+   "count": 317,
+   "file": "books/4.json",
+   "bytes": 208890
+  },
+  {
+   "id": 5,
+   "name": "The Book of Mosques and Places of Prayer",
+   "count": 395,
+   "file": "books/5.json",
+   "bytes": 274769
+  },
+  {
+   "id": 6,
+   "name": "The Book of Prayer - Travellers",
+   "count": 377,
+   "file": "books/6.json",
+   "bytes": 256362
+  },
+  {
+   "id": 7,
+   "name": "The Book of Prayer - Friday",
+   "count": 93,
+   "file": "books/7.json",
+   "bytes": 58300
+  },
+  {
+   "id": 8,
+   "name": "The Book of Prayer - Two Eids",
+   "count": 22,
+   "file": "books/8.json",
+   "bytes": 17383
+  },
+  {
+   "id": 9,
+   "name": "The Book of Prayer - Rain",
+   "count": 19,
+   "file": "books/9.json",
+   "bytes": 17418
+  },
+  {
+   "id": 10,
+   "name": "The Book of Prayer - Eclipses",
+   "count": 29,
+   "file": "books/10.json",
+   "bytes": 28492
+  },
+  {
+   "id": 11,
+   "name": "The Book of Prayer - Funerals",
+   "count": 134,
+   "file": "books/11.json",
+   "bytes": 99376
+  },
+  {
+   "id": 12,
+   "name": "The Book of Zakat",
+   "count": 226,
+   "file": "books/12.json",
+   "bytes": 198782
+  },
+  {
+   "id": 13,
+   "name": "The Book of Fasting",
+   "count": 285,
+   "file": "books/13.json",
+   "bytes": 187449
+  },
+  {
+   "id": 14,
+   "name": "The Book of I'tikaf",
+   "count": 11,
+   "file": "books/14.json",
+   "bytes": 6044
+  },
+  {
+   "id": 15,
+   "name": "The Book of Pilgrimage",
+   "count": 579,
+   "file": "books/15.json",
+   "bytes": 400324
+  },
+  {
+   "id": 16,
+   "name": "The Book of Marriage",
+   "count": 165,
+   "file": "books/16.json",
+   "bytes": 113189
+  },
+  {
+   "id": 17,
+   "name": "The Book of Suckling",
+   "count": 84,
+   "file": "books/17.json",
+   "bytes": 56156
+  },
+  {
+   "id": 18,
+   "name": "The Book of Divorce",
+   "count": 85,
+   "file": "books/18.json",
+   "bytes": 77817
+  },
+  {
+   "id": 19,
+   "name": "The Book of Invoking Curses",
+   "count": 27,
+   "file": "books/19.json",
+   "bytes": 23067
+  },
+  {
+   "id": 20,
+   "name": "The Book of Emancipating Slaves",
+   "count": 30,
+   "file": "books/20.json",
+   "bytes": 21085
+  },
+  {
+   "id": 21,
+   "name": "The Book of Transactions",
+   "count": 157,
+   "file": "books/21.json",
+   "bytes": 79525
+  },
+  {
+   "id": 22,
+   "name": "The Book of Musaqah",
+   "count": 177,
+   "file": "books/22.json",
+   "bytes": 108604
+  },
+  {
+   "id": 23,
+   "name": "The Book of the Rules of Inheritance",
+   "count": 23,
+   "file": "books/23.json",
+   "bytes": 12489
+  },
+  {
+   "id": 24,
+   "name": "The Book of Gifts",
+   "count": 41,
+   "file": "books/24.json",
+   "bytes": 23070
+  },
+  {
+   "id": 25,
+   "name": "The Book of Wills",
+   "count": 31,
+   "file": "books/25.json",
+   "bytes": 22215
+  },
+  {
+   "id": 26,
+   "name": "The Book of Vows",
+   "count": 17,
+   "file": "books/26.json",
+   "bytes": 11588
+  },
+  {
+   "id": 27,
+   "name": "The Book of Oaths",
+   "count": 88,
+   "file": "books/27.json",
+   "bytes": 58150
+  },
+  {
+   "id": 28,
+   "name": "The Book of Oaths, Muharibin, Qasas (Retaliation), and Diyat (Blood Money)",
+   "count": 56,
+   "file": "books/28.json",
+   "bytes": 43405
+  },
+  {
+   "id": 29,
+   "name": "The Book of Legal Punishments",
+   "count": 69,
+   "file": "books/29.json",
+   "bytes": 54239
+  },
+  {
+   "id": 30,
+   "name": "The Book of Judicial Decisions",
+   "count": 28,
+   "file": "books/30.json",
+   "bytes": 17030
+  },
+  {
+   "id": 31,
+   "name": "The Book of Lost Property",
+   "count": 19,
+   "file": "books/31.json",
+   "bytes": 19960
+  },
+  {
+   "id": 32,
+   "name": "The Book of Jihad and Expeditions",
+   "count": 177,
+   "file": "books/32.json",
+   "bytes": 180014
+  },
+  {
+   "id": 33,
+   "name": "The Book on Government",
+   "count": 256,
+   "file": "books/33.json",
+   "bytes": 194695
+  },
+  {
+   "id": 34,
+   "name": "The Book of Hunting, Slaughter, and what may be Eaten",
+   "count": 92,
+   "file": "books/34.json",
+   "bytes": 61277
+  },
+  {
+   "id": 35,
+   "name": "The Book of Sacrifices",
+   "count": 57,
+   "file": "books/35.json",
+   "bytes": 35574
+  },
+  {
+   "id": 36,
+   "name": "The Book of Drinks",
+   "count": 251,
+   "file": "books/36.json",
+   "bytes": 150097
+  },
+  {
+   "id": 37,
+   "name": "The Book of Clothes and Adornment",
+   "count": 184,
+   "file": "books/37.json",
+   "bytes": 105250
+  },
+  {
+   "id": 38,
+   "name": "The Book of Manners and Etiquette",
+   "count": 59,
+   "file": "books/38.json",
+   "bytes": 39622
+  },
+  {
+   "id": 39,
+   "name": "The Book of Greetings",
+   "count": 209,
+   "file": "books/39.json",
+   "bytes": 130388
+  },
+  {
+   "id": 40,
+   "name": "The Book Concerning the Use of Correct Words",
+   "count": 23,
+   "file": "books/40.json",
+   "bytes": 10309
+  },
+  {
+   "id": 41,
+   "name": "The Book of Poetry",
+   "count": 10,
+   "file": "books/41.json",
+   "bytes": 6765
+  },
+  {
+   "id": 42,
+   "name": "The Book of Dreams",
+   "count": 39,
+   "file": "books/42.json",
+   "bytes": 23017
+  },
+  {
+   "id": 43,
+   "name": "The Book of Virtues",
+   "count": 214,
+   "file": "books/43.json",
+   "bytes": 146880
+  },
+  {
+   "id": 44,
+   "name": "The Book of the Merits of the Companions",
+   "count": 323,
+   "file": "books/44.json",
+   "bytes": 254317
+  },
+  {
+   "id": 45,
+   "name": "The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship",
+   "count": 209,
+   "file": "books/45.json",
+   "bytes": 126072
+  },
+  {
+   "id": 46,
+   "name": "The Book of Destiny",
+   "count": 51,
+   "file": "books/46.json",
+   "bytes": 40258
+  },
+  {
+   "id": 47,
+   "name": "The Book of Knowledge",
+   "count": 29,
+   "file": "books/47.json",
+   "bytes": 18236
+  },
+  {
+   "id": 48,
+   "name": "The Book Pertaining to the Remembrance of Allah, Supplication, Repentance and Seeking Forgiveness",
+   "count": 122,
+   "file": "books/48.json",
+   "bytes": 75875
+  },
+  {
+   "id": 49,
+   "name": "The Book of Heart-Melting Traditions",
+   "count": 15,
+   "file": "books/49.json",
+   "bytes": 11340
+  },
+  {
+   "id": 50,
+   "name": "The Book of Repentance",
+   "count": 62,
+   "file": "books/50.json",
+   "bytes": 51500
+  },
+  {
+   "id": 51,
+   "name": "Characteristics of The Hypocrites And Rulings Concerning Them",
+   "count": 21,
+   "file": "books/51.json",
+   "bytes": 16925
+  },
+  {
+   "id": 52,
+   "name": "Characteristics of the Day of Judgment, Paradise, and Hell",
+   "count": 79,
+   "file": "books/52.json",
+   "bytes": 54627
+  },
+  {
+   "id": 53,
+   "name": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
+   "count": 101,
+   "file": "books/53.json",
+   "bytes": 70073
+  },
+  {
+   "id": 54,
+   "name": "The Book of Tribulations and Portents of the Last Hour",
+   "count": 156,
+   "file": "books/54.json",
+   "bytes": 123333
+  },
+  {
+   "id": 55,
+   "name": "The Book of Zuhd and Softening of Hearts",
+   "count": 76,
+   "file": "books/55.json",
+   "bytes": 79512
+  },
+  {
+   "id": 56,
+   "name": "The Book of Commentary on the Qur'an",
+   "count": 39,
+   "file": "books/56.json",
+   "bytes": 25326
+  }
+ ]
+}

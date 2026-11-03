@@ -1,0 +1,367 @@
+{
+ "id": "nasai",
+ "name": "Sunan an-Nasa'i",
+ "language": "tr",
+ "total": 628,
+ "skipped_empty": 86,
+ "source": "fawazahmed0/hadith-api tur-nasai",
+ "books": [
+  {
+   "id": 1,
+   "name": "The Book of Purification",
+   "count": 283,
+   "file": "books/1.json",
+   "bytes": 173383
+  },
+  {
+   "id": 2,
+   "name": "The Book of Water",
+   "count": 23,
+   "file": "books/2.json",
+   "bytes": 11364
+  },
+  {
+   "id": 3,
+   "name": "The Book of Menstruation and Istihadah",
+   "count": 40,
+   "file": "books/3.json",
+   "bytes": 24220
+  },
+  {
+   "id": 4,
+   "name": "The Book of Ghusl and Tayammum",
+   "count": 41,
+   "file": "books/4.json",
+   "bytes": 22733
+  },
+  {
+   "id": 5,
+   "name": "The Book of Salah",
+   "count": 39,
+   "file": "books/5.json",
+   "bytes": 32597
+  },
+  {
+   "id": 6,
+   "name": "The Book of the Times (of Prayer)",
+   "count": 97,
+   "file": "books/6.json",
+   "bytes": 65099
+  },
+  {
+   "id": 7,
+   "name": "The Book of the Adhan (The Call to Prayer)",
+   "count": 51,
+   "file": "books/7.json",
+   "bytes": 35530
+  },
+  {
+   "id": 8,
+   "name": "The Book of the Masjids",
+   "count": 49,
+   "file": "books/8.json",
+   "bytes": 32465
+  },
+  {
+   "id": 9,
+   "name": "The Book of the Qiblah",
+   "count": 0,
+   "file": "books/9.json",
+   "bytes": 2
+  },
+  {
+   "id": 10,
+   "name": "The Book of Leading the Prayer (Al-Imamah)",
+   "count": 0,
+   "file": "books/10.json",
+   "bytes": 2
+  },
+  {
+   "id": 11,
+   "name": "The Book of the Commencement of the Prayer",
+   "count": 0,
+   "file": "books/11.json",
+   "bytes": 2
+  },
+  {
+   "id": 12,
+   "name": "The Book of The At-Tatbiq (Clasping One's Hands Together)",
+   "count": 0,
+   "file": "books/12.json",
+   "bytes": 2
+  },
+  {
+   "id": 13,
+   "name": "The Book of Forgetfulness (In Prayer)",
+   "count": 0,
+   "file": "books/13.json",
+   "bytes": 2
+  },
+  {
+   "id": 14,
+   "name": "The Book of Jumu'ah (Friday Prayer)",
+   "count": 0,
+   "file": "books/14.json",
+   "bytes": 2
+  },
+  {
+   "id": 15,
+   "name": "The Book of Shortening the Prayer When Traveling",
+   "count": 1,
+   "file": "books/15.json",
+   "bytes": 416
+  },
+  {
+   "id": 16,
+   "name": "The Book of Eclipses",
+   "count": 0,
+   "file": "books/16.json",
+   "bytes": 2
+  },
+  {
+   "id": 17,
+   "name": "The Book of Praying for Rain (Al-Istisqa')",
+   "count": 0,
+   "file": "books/17.json",
+   "bytes": 2
+  },
+  {
+   "id": 18,
+   "name": "The Book of the Fear Prayer",
+   "count": 0,
+   "file": "books/18.json",
+   "bytes": 2
+  },
+  {
+   "id": 19,
+   "name": "The Book of the Prayer for the Two 'Eids",
+   "count": 0,
+   "file": "books/19.json",
+   "bytes": 2
+  },
+  {
+   "id": 20,
+   "name": "The Book of Qiyam Al-Lail (The Night Prayer) and Voluntary Prayers During the Day",
+   "count": 0,
+   "file": "books/20.json",
+   "bytes": 2
+  },
+  {
+   "id": 21,
+   "name": "The Book of Funerals",
+   "count": 2,
+   "file": "books/21.json",
+   "bytes": 1524
+  },
+  {
+   "id": 22,
+   "name": "The Book of Fasting",
+   "count": 1,
+   "file": "books/22.json",
+   "bytes": 548
+  },
+  {
+   "id": 23,
+   "name": "The Book of Zakah",
+   "count": 0,
+   "file": "books/23.json",
+   "bytes": 2
+  },
+  {
+   "id": 24,
+   "name": "The Book of Hajj",
+   "count": 0,
+   "file": "books/24.json",
+   "bytes": 2
+  },
+  {
+   "id": 25,
+   "name": "The Book of Jihad",
+   "count": 0,
+   "file": "books/25.json",
+   "bytes": 2
+  },
+  {
+   "id": 26,
+   "name": "The Book of Marriage",
+   "count": 0,
+   "file": "books/26.json",
+   "bytes": 2
+  },
+  {
+   "id": 27,
+   "name": "The Book of Divorce",
+   "count": 0,
+   "file": "books/27.json",
+   "bytes": 2
+  },
+  {
+   "id": 28,
+   "name": "The Book of Horses, Races and Shooting",
+   "count": 0,
+   "file": "books/28.json",
+   "bytes": 2
+  },
+  {
+   "id": 29,
+   "name": "The Book of Endowments",
+   "count": 0,
+   "file": "books/29.json",
+   "bytes": 2
+  },
+  {
+   "id": 30,
+   "name": "The Book of Wills",
+   "count": 0,
+   "file": "books/30.json",
+   "bytes": 2
+  },
+  {
+   "id": 31,
+   "name": "The Book of Presents",
+   "count": 0,
+   "file": "books/31.json",
+   "bytes": 2
+  },
+  {
+   "id": 32,
+   "name": "The Book of Gifts",
+   "count": 0,
+   "file": "books/32.json",
+   "bytes": 2
+  },
+  {
+   "id": 33,
+   "name": "The Book of ar-Ruqba",
+   "count": 0,
+   "file": "books/33.json",
+   "bytes": 2
+  },
+  {
+   "id": 34,
+   "name": "The Book of 'Umra",
+   "count": 0,
+   "file": "books/34.json",
+   "bytes": 2
+  },
+  {
+   "id": 35,
+   "name": "The Book of Agriculture",
+   "count": 0,
+   "file": "books/35.json",
+   "bytes": 2
+  },
+  {
+   "id": 36,
+   "name": "The Book of the Kind Treatment of Women",
+   "count": 0,
+   "file": "books/36.json",
+   "bytes": 2
+  },
+  {
+   "id": 37,
+   "name": "The Book of Fighting [The Prohibition of Bloodshed]",
+   "count": 0,
+   "file": "books/37.json",
+   "bytes": 2
+  },
+  {
+   "id": 38,
+   "name": "The Book of Distribution of Al-Fay'",
+   "count": 0,
+   "file": "books/38.json",
+   "bytes": 2
+  },
+  {
+   "id": 39,
+   "name": "The Book of al-Bay'ah",
+   "count": 0,
+   "file": "books/39.json",
+   "bytes": 2
+  },
+  {
+   "id": 40,
+   "name": "The Book of al-'Aqiqah",
+   "count": 0,
+   "file": "books/40.json",
+   "bytes": 2
+  },
+  {
+   "id": 41,
+   "name": "The Book of al-Fara' and al-'Atirah",
+   "count": 0,
+   "file": "books/41.json",
+   "bytes": 2
+  },
+  {
+   "id": 42,
+   "name": "The Book of Hunting and Slaughtering",
+   "count": 0,
+   "file": "books/42.json",
+   "bytes": 2
+  },
+  {
+   "id": 43,
+   "name": "The Book of ad-Dahaya (Sacrifices)",
+   "count": 1,
+   "file": "books/43.json",
+   "bytes": 216
+  },
+  {
+   "id": 44,
+   "name": "The Book of Financial Transactions",
+   "count": 0,
+   "file": "books/44.json",
+   "bytes": 2
+  },
+  {
+   "id": 45,
+   "name": "The Book of Oaths (qasamah), Retaliation and Blood Money",
+   "count": 0,
+   "file": "books/45.json",
+   "bytes": 2
+  },
+  {
+   "id": 46,
+   "name": "The Book of Cutting off the Hand of the Thief",
+   "count": 0,
+   "file": "books/46.json",
+   "bytes": 2
+  },
+  {
+   "id": 47,
+   "name": "The Book Of Faith and its Signs",
+   "count": 0,
+   "file": "books/47.json",
+   "bytes": 2
+  },
+  {
+   "id": 48,
+   "name": "The Book of Adornment",
+   "count": 0,
+   "file": "books/48.json",
+   "bytes": 2
+  },
+  {
+   "id": 49,
+   "name": "The Book of the Etiquette of Judges",
+   "count": 0,
+   "file": "books/49.json",
+   "bytes": 2
+  },
+  {
+   "id": 50,
+   "name": "The Book of Seeking Refuge with Allah",
+   "count": 0,
+   "file": "books/50.json",
+   "bytes": 2
+  },
+  {
+   "id": 51,
+   "name": "The Book of Drinks",
+   "count": 0,
+   "file": "books/51.json",
+   "bytes": 2
+  }
+ ]
+}
