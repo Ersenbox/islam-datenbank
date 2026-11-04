@@ -72,3 +72,13 @@ Tageslogik (v4): `ayet = ayetler[(dayOfYear-1) % 365]`, `sunnet = sunnetler[(day
 ### v4.1 (Manifest-Version 5, 2026-11-03)
 
 - `sunnetler.json` Tag 1–180: neue Felder `hadis_metni_en`, `hadis_metni_fr`, `hadis_metni_de_not`, `kaynak_url` (per Quelle + Nummer aus fawazahmed0/hadith-api, Stichproben geprüft). Bestehende Felder unverändert. Tag 123 (Koranvers) hat keine Übersetzung.
+
+## v5 (Manifest-Version 6, 2026-11-04) – Tarihte Bugün + Padişahlar
+
+| Datei | Inhalt | Quelle |
+|---|---|---|
+| `data/tarihte_bugun/{tr,en,de,fr}.json` | Schlüssel `"MM-DD"` → max. 7 Ereignisse `{year, text, cat, src, url}`; `cat` = `TR` / `ISLAM` / `WORLD` (Türkei ≤3, Islam ≤3, Rest Welt). **Nur geprüfte Ereignisse:** der verlinkte Wikipedia-Artikel (`src`) enthält das volle Datum (z. B. „3 Kasım 1957“). Nicht prüfbare Ereignisse werden weggelassen. | Wikimedia „On this day“ API + Artikel-Wikitext |
+| `data/osmanli_padisahlar.json` | 36 Padişahs: `ozet` (Einleitung TR-Wikipedia), `seferler` (Schlachten/Feldzüge/Verträge, nach Regierungsjahren gefiltert), `eserler` (Bauwerke, Wikidata P88), `saltanat`, `kaynak_url` | tr.wikipedia.org, Wikidata |
+
+- TR: `05-25` hat nur wenige, `07-30` keine geprüften Ereignisse (App nutzt dann eigene Daten).
+- Neu bauen: `tools/build_tarihte_bugun.py --part <lang> <m1> <m2>` (parallel) dann `--merge tr en de fr`; `tools/build_padisahlar.py`; Kontrolle `tools/tb_coverage.py`.

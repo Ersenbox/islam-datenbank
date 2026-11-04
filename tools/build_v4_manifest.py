@@ -17,14 +17,17 @@ def count(rel):
     d = json.load(open(rel, encoding='utf-8'))
     if isinstance(d, list):
         return len(d)
-    for k in ('ayetler', 'dualar'):
+    for k in ('ayetler', 'dualar', 'padisahlar'):
         if k in d:
             return len(d[k])
-    return d.get('total')
+    if 'total' in d:
+        return d.get('total')
+    return len(d)  # tarihte_bugun: gün sayısı
 
 
 byp = {f['path']: f for f in m['files']}
-want = ['data/daily/ayetler.json', 'data/daily/dualar.json', 'data/daily/dualar_v2.json', 'data/daily/sunnetler.json']
+want = ['data/daily/ayetler.json', 'data/daily/dualar.json', 'data/daily/dualar_v2.json', 'data/daily/sunnetler.json',
+        'data/osmanli_padisahlar.json'] + [f'data/tarihte_bugun/{l}.json' for l in ('tr', 'en', 'de', 'fr')]
 for b in ['bukhari', 'muslim', 'abudawud', 'tirmidhi', 'nasai', 'ibnmajah']:
     for d in ('hadith', 'hadith_tr', 'hadith_fr'):
         p = f'data/{d}/{b}/index.json'
@@ -37,7 +40,7 @@ for p in want:
     if p.endswith('sunnetler.json'):
         e['expected'] = 365
         e['complete'] = e['count'] == 365
-    if '/hadith' in p:
+    if '/hadith' in p and p.endswith('index.json'):
         idx = json.load(open(p, encoding='utf-8'))
         e['books'] = len(idx['books'])
         e['download_bytes'] = sum(x['bytes'] for x in idx['books'])

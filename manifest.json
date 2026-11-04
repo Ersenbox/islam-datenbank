@@ -1,6 +1,6 @@
 {
  "name": "islam-datenbank",
- "version": 5,
+ "version": 6,
  "updated": "2026-11-03",
  "files": [
   {
@@ -181,6 +181,36 @@
    "books": 38,
    "download_bytes": 2503608,
    "language": "fr"
+  },
+  {
+   "path": "data/osmanli_padisahlar.json",
+   "count": 36,
+   "bytes": 93097,
+   "sha256": "239f1252524167bff47d3d06d3fbc153dd660c4c9b8feb425f488ff4e7b8d60d"
+  },
+  {
+   "path": "data/tarihte_bugun/tr.json",
+   "count": 366,
+   "bytes": 560668,
+   "sha256": "a772cb28e1b5eeb0d7d8d58f1c0aab111b69da45d7f678bb625fef278aed2a24"
+  },
+  {
+   "path": "data/tarihte_bugun/en.json",
+   "count": 366,
+   "bytes": 692769,
+   "sha256": "1169aed0a9c376c241d91858a15e7ea3098ee3081e2a6bf73d5eb8b451a48811"
+  },
+  {
+   "path": "data/tarihte_bugun/de.json",
+   "count": 366,
+   "bytes": 754292,
+   "sha256": "c3fc7c1d2af0e53d3de77276636867836c85f8757cd128c4e8545d3e71d7f5d2"
+  },
+  {
+   "path": "data/tarihte_bugun/fr.json",
+   "count": 366,
+   "bytes": 629462,
+   "sha256": "e5ea2a4ef8d2feea09d1fd8e70b0f59034ad7869aea746897f500fd86a291699"
   }
  ],
  "notes": {
